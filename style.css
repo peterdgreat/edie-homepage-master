@@ -1,0 +1,232 @@
+
+.brand-bold{
+    font-weight: 700;
+    
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.836);
+    font-weight: 600;
+}
+.info{
+    margin: 2em 0 1em 4em
+    
+}
+.info-2{
+    margin: 2em 0 1em 4em
+    
+
+}
+.demand{
+    padding:3em 0 0em 0;
+    max-width: 300px;
+
+}
+.info-2 p{
+  max-width:  20em;
+  font-size:small;
+  color: #757D75;
+}
+.info-2 h6{
+    color: #595e59;
+
+}
+.info-2 button{
+    position: relative;
+    right: 3.6em;
+}
+.info-2 input{
+    border-radius: .5em;
+    width: 15em;
+    height: 2.6em;
+    border-width: 0;
+    background-color: #ecf3f9;
+}
+
+.info h6{
+    color: #0A7EE3;
+   
+    
+}
+.info h4{
+    font-weight: 400;
+}
+.rounded-img{
+    border-radius: .8em;
+}
+.Getstarted-1{
+    border-radius: .8em;
+    background-color: #ecf3f9;
+}
+.section{
+    padding:3em 0 3em 1em;
+    margin-bottom: 5em;
+    
+}
+.icon-1{
+    background-color: #17a2b8;
+    border-radius: .5em;
+    border-color: #17a2b8;
+    margin-bottom: 2em;
+}
+.icon-2{
+    
+    background-color: rgba(0, 128, 0, 0.6);
+    border-radius: .5em;
+    border-color: rgba(0, 128, 0, 0.6);
+    margin-bottom: 2em;
+}
+.icon-3{
+    
+    background-color: rgba(255, 0, 0, 0.747);;
+    border-radius: .5em;
+    border-color: rgba(255, 0, 0, 0.747);;
+    margin-bottom: 2em;
+}
+.section-2{
+    border-radius: 2em;
+
+   background-color: #F8F8FF;
+   padding:3em 0 3em 1em;
+   margin-bottom: 4em;
+   
+}
+.section h4{
+    font-weight: bolder;
+    
+    color: rgba(0, 0, 0, 0.808) ;
+}
+.design h4{
+    max-width: 10em;
+    font-weight: 400;
+    
+}
+ .img-padding{
+     margin-top: 8em;
+
+}
+.img-padding-2{
+    
+    margin-bottom: 8em;
+}
+.see-more{
+    font-weight: 500;
+    color: #0A7EE3;
+    margin-bottom: 5em;
+}
+.col-md-6 h6{
+    margin-top: 0.5em;
+    font-weight: 400;
+    color:#595e59;
+}
+.col-md-6 h5{
+    margin-bottom: 1em;
+}
+.flex-img{
+   display: flex;
+
+}
+.flex-1{
+    flex: 1;
+    
+    margin: 7.5em 1em 0 0;
+}
+.flex-2 img{
+    margin-top: 1em;
+}
+.flex-2{
+    flex: 1;
+    
+}
+
+
+.result {
+    max-width: 80%;
+}
+.relative img{
+    width:5em;
+    height:auto;
+}
+.relative{
+    position: relative;
+}
+.absolute h5{
+    margin-bottom:1em;
+}
+.absolute{
+    position:relative;
+    top:1em;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.911);
+
+}
+.footer-link{
+
+    margin: 1em 0 1em 4em;
+}
+.footer-link a{
+    display: block;
+    color: white;
+    margin-bottom: .5em;
+}
+
+.grid h6{
+    color: rgba(255, 0, 0, 0.747);
+}
+
+.h6{
+    color: white;
+}
+
+.mail input{
+  width: 24.2em; 
+border-radius: .5em;
+height: 2.6em;
+
+}
+.mail button{
+    position: absolute;
+    left: 25.5em;
+    margin-top: .1em;
+}
+.name{
+    color: white;
+    text-align: center;
+}
+.resize{
+    height: 3em;
+}
+.contact{
+    display: flex;
+}
+.contact img{
+    background-color: white;
+    border-radius: .3em;
+    margin: .5em;
+}
+footer a:hover{
+    color: rgba(255, 255, 255, 0.863);
+    text-decoration: none;
+
+}
+
+@media screen and (min-width:570px){
+    .row{
+        display: flex;
+    }
+    .grid{
+        flex: 1;
+        margin-top: 8em;
+    }
+    .flex-1{
+        flex:1;
+    }
+    .flex-2{
+flex: 1;
+    }
+}
+body{
+    overflow-x: hidden;
+}
