@@ -12,7 +12,6 @@
     "lint": "eslint client",
     "clean-dist": "rimraf ./dist && mkdir dist",
     "test": "jest",
-    "prebuild": "npm-run-all clean-dist lint",
     "build": "babel-node server/build.js",
     
     "generate-mock-data": "babel-node server/generateMockData",
