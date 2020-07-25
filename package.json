@@ -14,7 +14,7 @@
     "test": "jest",
     "prebuild": "npm-run-all clean-dist lint",
     "build": "babel-node server/build.js",
-    "postbuild": "babel-node server/distServer.js",
+    
     "generate-mock-data": "babel-node server/generateMockData",
     "prestart-mockapi": "npm run generate-mock-data",
     "start-mockapi": "json-server --watch client/src/api/db.json --port 3001"
